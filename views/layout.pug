@@ -20,7 +20,6 @@ html(lang="en")
     nav.navbar.navbar-inverse.navbar-fixed-top(style='background-color: #0e182f; color: #ffffff')
       .container
         .navbar-header
-          img.navbar-brand(src="https://s3.ca-central-1.amazonaws.com/dlt-asset/company-logo/DLT-logo-white.png" alt="Logo" style='vertical-align: text-bottom')
           button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
             span.sr-only Toggle navigation
             span.icon-bar
@@ -68,3 +67,4 @@ html(lang="en")
         p
           a(href="https://dltlabs.com") DLT Labs
           |  | #{nodeStatus.version} | #{nodeStatus.nbrPeers} Peers connected
+          img.footer-logo(src="https://s3.ca-central-1.amazonaws.com/dlt-asset/company-logo/DLT-logo.png" alt="Logo" style='float:right')

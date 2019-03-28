@@ -26,3 +26,9 @@ pre {
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+.footer-logo{
+    font-size: 19px;
+    line-height: 21px;
+    height: 28px;
+    margin-top: -7px
+}
