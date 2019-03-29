@@ -32,3 +32,8 @@ pre {
     height: 28px;
     margin-top: -7px
 }
+.custom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
